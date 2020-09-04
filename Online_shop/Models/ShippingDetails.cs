@@ -25,6 +25,7 @@ namespace Online_shop.Models
         [Required]
         public Nullable<int> OrderId { get; set; }
         public Nullable<decimal> AmountPaid { get; set; }
+        [Required]
         public string PaymentType { get; set; }
     }
 }
